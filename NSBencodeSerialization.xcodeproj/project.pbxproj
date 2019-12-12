@@ -7,27 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23A8686718BF2FE20066E383 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A8686618BF2FE20066E383 /* Foundation.framework */; };
-		23A8686C18BF2FE20066E383 /* NSBencodeSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 23A8686B18BF2FE20066E383 /* NSBencodeSerialization.h */; };
-		23A8686E18BF2FE20066E383 /* NSBencodeSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A8686D18BF2FE20066E383 /* NSBencodeSerialization.m */; };
-		23F0378E18C159BA00B4D289 /* M13OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0378D18C159BA00B4D289 /* M13OrderedDictionary.m */; };
+		5753D10A23A258D200A466C3 /* NSBencodeSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 5753D10823A258D200A466C3 /* NSBencodeSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5753D10E23A258FE00A466C3 /* NSBencodeSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A8686D18BF2FE20066E383 /* NSBencodeSerialization.m */; };
+		5753D10F23A2590000A466C3 /* M13OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0378D18C159BA00B4D289 /* M13OrderedDictionary.m */; };
+		5753D11223A2592100A466C3 /* NSBencodeSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 5753D10823A258D200A466C3 /* NSBencodeSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5753D11423A2592100A466C3 /* NSBencodeSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A8686D18BF2FE20066E383 /* NSBencodeSerialization.m */; };
+		5753D11523A2592100A466C3 /* M13OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F0378D18C159BA00B4D289 /* M13OrderedDictionary.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		23A8686118BF2FE20066E383 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				23A8686C18BF2FE20066E383 /* NSBencodeSerialization.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		23A8686318BF2FE20066E383 /* libNSBencodeSerialization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSBencodeSerialization.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A8686618BF2FE20066E383 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		23A8686A18BF2FE20066E383 /* NSBencodeSerialization-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBencodeSerialization-Prefix.pch"; sourceTree = "<group>"; };
 		23A8686B18BF2FE20066E383 /* NSBencodeSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSBencodeSerialization.h; sourceTree = "<group>"; };
@@ -36,14 +24,24 @@
 		23A8687718BF2FE20066E383 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		23F0378C18C159BA00B4D289 /* M13OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = M13OrderedDictionary.h; path = M13OrderedDictionary/M13OrderedDictionary.h; sourceTree = SOURCE_ROOT; };
 		23F0378D18C159BA00B4D289 /* M13OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = M13OrderedDictionary.m; path = M13OrderedDictionary/M13OrderedDictionary.m; sourceTree = SOURCE_ROOT; };
+		5753D10623A258D200A466C3 /* NSBencodeSerialization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSBencodeSerialization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5753D10823A258D200A466C3 /* NSBencodeSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSBencodeSerialization.h; sourceTree = "<group>"; };
+		5753D10923A258D200A466C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5753D11B23A2592100A466C3 /* NSBencodeSerialization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSBencodeSerialization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		23A8686018BF2FE20066E383 /* Frameworks */ = {
+		5753D10323A258D200A466C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23A8686718BF2FE20066E383 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5753D11623A2592100A466C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				23A8686818BF2FE20066E383 /* NSBencodeSerialization */,
+				5753D10723A258D200A466C3 /* NSBencodeSerialization */,
 				23A8686518BF2FE20066E383 /* Frameworks */,
 				23A8686418BF2FE20066E383 /* Products */,
 			);
@@ -62,7 +61,8 @@
 		23A8686418BF2FE20066E383 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23A8686318BF2FE20066E383 /* libNSBencodeSerialization.a */,
+				5753D10623A258D200A466C3 /* NSBencodeSerialization.framework */,
+				5753D11B23A2592100A466C3 /* NSBencodeSerialization.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,25 +97,72 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5753D10723A258D200A466C3 /* NSBencodeSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				5753D10823A258D200A466C3 /* NSBencodeSerialization.h */,
+				5753D10923A258D200A466C3 /* Info.plist */,
+			);
+			path = NSBencodeSerialization;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		5753D10123A258D200A466C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5753D10A23A258D200A466C3 /* NSBencodeSerialization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5753D11123A2592100A466C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5753D11223A2592100A466C3 /* NSBencodeSerialization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		23A8686218BF2FE20066E383 /* NSBencodeSerialization */ = {
+		5753D10523A258D200A466C3 /* NSBencodeSerialization iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23A8688618BF2FE20066E383 /* Build configuration list for PBXNativeTarget "NSBencodeSerialization" */;
+			buildConfigurationList = 5753D10B23A258D200A466C3 /* Build configuration list for PBXNativeTarget "NSBencodeSerialization iOS" */;
 			buildPhases = (
-				23A8685F18BF2FE20066E383 /* Sources */,
-				23A8686018BF2FE20066E383 /* Frameworks */,
-				23A8686118BF2FE20066E383 /* CopyFiles */,
+				5753D10123A258D200A466C3 /* Headers */,
+				5753D10223A258D200A466C3 /* Sources */,
+				5753D10323A258D200A466C3 /* Frameworks */,
+				5753D10423A258D200A466C3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NSBencodeSerialization;
+			name = "NSBencodeSerialization iOS";
 			productName = NSBencodeSerialization;
-			productReference = 23A8686318BF2FE20066E383 /* libNSBencodeSerialization.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 5753D10623A258D200A466C3 /* NSBencodeSerialization.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5753D11023A2592100A466C3 /* NSBencodeSerialization macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5753D11823A2592100A466C3 /* Build configuration list for PBXNativeTarget "NSBencodeSerialization macOS" */;
+			buildPhases = (
+				5753D11123A2592100A466C3 /* Headers */,
+				5753D11323A2592100A466C3 /* Sources */,
+				5753D11623A2592100A466C3 /* Frameworks */,
+				5753D11723A2592100A466C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSBencodeSerialization macOS";
+			productName = NSBencodeSerialization;
+			productReference = 5753D11B23A2592100A466C3 /* NSBencodeSerialization.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -125,6 +172,15 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Carlo Tortorella";
+				TargetAttributes = {
+					5753D10523A258D200A466C3 = {
+						CreatedOnToolsVersion = 11.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5753D11023A2592100A466C3 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 23A8685E18BF2FE20066E383 /* Build configuration list for PBXProject "NSBencodeSerialization" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -139,18 +195,45 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23A8686218BF2FE20066E383 /* NSBencodeSerialization */,
+				5753D10523A258D200A466C3 /* NSBencodeSerialization iOS */,
+				5753D11023A2592100A466C3 /* NSBencodeSerialization macOS */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		5753D10423A258D200A466C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5753D11723A2592100A466C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		23A8685F18BF2FE20066E383 /* Sources */ = {
+		5753D10223A258D200A466C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23A8686E18BF2FE20066E383 /* NSBencodeSerialization.m in Sources */,
-				23F0378E18C159BA00B4D289 /* M13OrderedDictionary.m in Sources */,
+				5753D10E23A258FE00A466C3 /* NSBencodeSerialization.m in Sources */,
+				5753D10F23A2590000A466C3 /* M13OrderedDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5753D11323A2592100A466C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5753D11423A2592100A466C3 /* NSBencodeSerialization.m in Sources */,
+				5753D11523A2592100A466C3 /* M13OrderedDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,30 +308,193 @@
 			};
 			name = Release;
 		};
-		23A8688718BF2FE20066E383 /* Debug */ = {
+		5753D10C23A258D200A466C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/NSBencodeSerialization.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSBencodeSerialization/NSBencodeSerialization-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = NSBencodeSerialization/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = consulting.monadic.NSBencodeSerialization;
+				PRODUCT_NAME = NSBencodeSerialization;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		23A8688818BF2FE20066E383 /* Release */ = {
+		5753D10D23A258D200A466C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /tmp/NSBencodeSerialization.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NSBencodeSerialization/NSBencodeSerialization-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = NSBencodeSerialization/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = consulting.monadic.NSBencodeSerialization;
+				PRODUCT_NAME = NSBencodeSerialization;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5753D11923A2592100A466C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = NSBencodeSerialization/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = consulting.monadic.NSBencodeSerialization;
+				PRODUCT_NAME = NSBencodeSerialization;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5753D11A23A2592100A466C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = NSBencodeSerialization/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = consulting.monadic.NSBencodeSerialization;
+				PRODUCT_NAME = NSBencodeSerialization;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -264,11 +510,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23A8688618BF2FE20066E383 /* Build configuration list for PBXNativeTarget "NSBencodeSerialization" */ = {
+		5753D10B23A258D200A466C3 /* Build configuration list for PBXNativeTarget "NSBencodeSerialization iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23A8688718BF2FE20066E383 /* Debug */,
-				23A8688818BF2FE20066E383 /* Release */,
+				5753D10C23A258D200A466C3 /* Debug */,
+				5753D10D23A258D200A466C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5753D11823A2592100A466C3 /* Build configuration list for PBXNativeTarget "NSBencodeSerialization macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5753D11923A2592100A466C3 /* Debug */,
+				5753D11A23A2592100A466C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
